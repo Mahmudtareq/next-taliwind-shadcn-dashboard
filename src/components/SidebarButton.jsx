@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "./ui/button";
-import { Sun } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const SidebarButton = ({ children, className, icon: Icon, ...props }) => {
@@ -10,7 +9,7 @@ const SidebarButton = ({ children, className, icon: Icon, ...props }) => {
       className={cn("gap-2 justify-start", className)}
       {...props}
     >
-      {Icon && <Icon size={20} />}
+      {Icon && <Icon size={20}/>}
       <span>{children}</span>
     </Button>
   );

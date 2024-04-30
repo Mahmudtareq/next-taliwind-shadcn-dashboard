@@ -27,7 +27,7 @@ const Sidebar = () => {
                         <AvatarImage src="https://github.com/max-programming.png" />
                         <AvatarFallback>Max Programming</AvatarFallback>
                       </Avatar>
-                      <span>Max Programming</span>
+                      <span>Global Programming</span>
                     </div>
                     <MoreHorizontal size={20} />
                   </div>
